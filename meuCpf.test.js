@@ -14,6 +14,6 @@ test('teste de cpf invalido', () => {
   assert.equal(cpfValido('12345678912'), false);
 });
 
-// test('teste de cpf invalido', () => {
-//   assert.equal(cpfValido('12345678912'), true);
-// });
+test('teste de cpf invalido', () => {
+  assert.equal(cpfValido('12345678912'), false);
+});
