@@ -121,3 +121,4 @@ test('garantirValido lanca a excecao com a lista dentro', () => {
 test('garantirValido devolve true quando tudo certo', () => {
   assert.equal(garantirValido(pessoa(), HOJE), true);
 });
+
