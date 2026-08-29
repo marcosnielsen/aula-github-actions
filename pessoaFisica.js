@@ -19,7 +19,7 @@ function cpfValido(cpf) {
     const digito = ((soma * 10) % 11) % 10;
     if (digito !== Number(numeros[quantidade])) return false;
   }
-  return true;
+  return false;
 }
 
 function nomeValido(nome) {
